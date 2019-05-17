@@ -1,0 +1,23 @@
+Package: jrAdv
+Type: Package
+Title: The jrAdv package
+Version: 0.1.0
+Authors@R: person("Jamie", "Owen",
+    email="jamie@jumpingrivers.com", 
+    role = c("aut", "cre"))
+Maintainer: Jamie Owen
+    <jamie@jumpingrivers.com>
+Description: An R package for the one day Advanced R programming run by Jumping Rivers.
+URL: https://jumpingrivers.com
+VignetteBuilder: knitr
+License: GPL-3 | GPL-2
+Encoding: UTF-8
+Depends:
+    R (>= 3.1)
+Imports:
+    pryr,
+    hexbin,
+    quantreg,
+Suggests:
+    knitr, fortunes, tufte, rmarkdown
+RoxygenNote: 6.1.1
